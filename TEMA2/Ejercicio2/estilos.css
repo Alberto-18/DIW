@@ -1,0 +1,92 @@
+/*Hacer que todos los inputs tengan un border de 3px rojo - 0,5 PUNTOS */
+#checkbox{
+    border-radius: 5px;
+    border-color: red;
+}
+
+/* Dar a todo elemento que tenga la clase  'hello' un background blanco - 0,5 PUNTOS*/
+p.hello{
+    background-color: whitesmoke;
+
+}
+
+/* Dar al elemento con el id 'special' un border de 2px solid azul - 0,5 PUNTOS*/
+#special{
+    border-radius: 2px;
+    border-color: blue;
+
+}
+
+/*Hacer que todos los paragraphs anidados dentro de divs tengan fuente de 25px (font-size: 25px) - 0,5 PUNTOS */
+div{
+    font-size: 25px;
+
+}
+
+/*Hacer que solo los input de tipo 'text' tengan un background gris - 0,5 PUNTOS */
+#{
+    background-color: darkgray;
+
+}
+
+/* Dar los <p> dentro del tercer div un background rosa - 0,5 PUNTOS*/
+div>p{
+    background-color: pink;
+}
+
+/* Dar al segundo <p> dentro del tercer <div> un border de 5px white - 0,5 PUNTOS */
+#{
+    border-radius: 5px;
+    border-color: whitesmoke;
+
+}   
+
+/* Hacer que el <em> en el tercer <div> sea de color blanco y de fuente 20px(font-size:20px) - 1 PUNTO*/
+#{
+    font-size: 20px;
+    color: white;
+    
+}
+
+
+
+
+
+/*A PARTIR DE AQUÍ CON ALGUNA HAY QUE BUSCARSE LA VIDA*/
+
+
+
+
+
+/*Hacer que todos los checkboxes seleccionados  tengan un margen izquierdo de 50px(margin-left: 50px) - 1 PUNTO */
+#{
+    margin-left: 50px
+
+}
+
+/* Hacer  todos los elementos <label> se conviertan a mayúsculas SIN CAMBIAR HTML - 1 PUNTO */
+.label{
+    text-transform: uppercase
+}
+
+/*Hacer la primera letra del elemento con id 'special' verde y con un tamaño de fuente de 100px(font-size: 100) - 0,5 PUNTOS*/
+#{
+
+}
+
+/*Hacer que el elemento H1 cambie de color a azul cuando se pase el ratón por encima - 0,5 PUNTOS */
+#{
+
+}
+
+/*Hacer que los enlaces visitados se conviertan a color gris - 0,5 PUNTOS */
+#{
+
+}
+
+
+
+
+
+/*Nota: Si se hacen todas bien supone un 10,5 puntos */ 
+
