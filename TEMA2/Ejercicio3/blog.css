@@ -1,0 +1,75 @@
+h1{
+    /*Se utilizan diferentes fuentes para los Headings (h1, h2, h3) (sans-serif). 0,5 puntos.*/
+    font-style: sans-serif;
+
+    color: blue;
+}
+
+small{
+    color: aqua;
+}
+
+body{
+    /*Se utilizan diferentes fuentes para el body (serif)*/
+    font: serif;
+
+    background-color: gray;
+
+    padding-top: 90px;
+    padding-bottom: 70px;
+    padding-right: 170px;
+    padding-left: 170px;
+}
+
+header{
+    /* El texto del header está centrado. 1 punto*/
+    text-align: center;
+    /* El header usa un padding para no estár tan pegado a los bordes. 1 punto.*/
+    padding-top: 70px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+    background-color: whitesmoke;
+
+}
+
+#container{
+    /* El container está centrado. 1 punto.*/ 
+    justify-content: center;
+
+    background-color: whitesmoke;
+    padding-top: 170px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+article{
+    /* Los article usan un padding para no estar tan pegado al borde. 1 punto*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+
+}
+
+.post-head{
+    /* La clase post-head tiene un margen inferior para separarse del siguiente elemento. 1 punto.*/
+    margin-bottom: 100px;
+    /* La clase post-head tiene un padding para no estar tan pegado al borde. 1 punto*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    /* La clase post-head tiene un borde inferior sólido. 1 punto.*/
+    border-style: solid;
+ 
+}
+
+
+footer{
+    /* El texto del footer está centrado. 0,5 puntos.*/
+    text-align: center;
+
+}
