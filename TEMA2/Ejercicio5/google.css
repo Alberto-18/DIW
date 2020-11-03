@@ -1,0 +1,33 @@
+#header li{
+    float: right;
+    display: inline;
+    padding-right: 10px;
+}
+
+#container{
+    text-align: center;
+    margin-top: 10%;
+}
+
+input[type=text]{
+    width: 30%;
+    display: block;
+    margin-left: 35%;
+    margin-bottom: 1%;
+}
+
+.clearfix li{
+    float: left;
+    padding: 10px;
+    margin-top: 24%;
+}
+
+.clearfix .right-links li{
+    float: right;
+    padding: 10px;
+    margin-top: 24%;
+}
+
+nav{
+    height: 5px;
+}

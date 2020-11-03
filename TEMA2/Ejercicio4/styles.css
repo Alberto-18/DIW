@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header, aside, main, footer {
+    margin: 1%;
+
+}
+
+body{
+    background-color: rgb(187, 238, 247);
+}
+
+#container{
+    background-color: aqua;
+    width: 100%;
+    overflow: hidden;
+    min-width: 60%;
+    max-width: 150%;
+
+}
+
+section{
+    margin: 1%;
+    height: 40%;
+    width: 31%;
+    float: left;
+
+}
+
+aside{
+    clear: left;
+    float: left;
+    width: 25.5%;
+    height: 150px;
+    overflow: auto
+
+}
+
+footer{
+    clear: both;
+    bottom: 0;
+    width: 96%;
+    height: 40px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 2%;
+
+}
+
+main{
+    float: right;
+    width: 70%;
+    height: 830px;
+}
