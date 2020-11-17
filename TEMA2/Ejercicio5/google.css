@@ -10,14 +10,20 @@
 }
 
 input[type=text]{
-    width: 29%;
+    width: 30%;
     display: block;
     margin-left: 35%;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
 }
 
 .clearfix li{
     float: left;
+    padding: 10px;
+    margin-top: 24%;
+}
+
+.clearfix .right-links li{
+    float: right;
     padding: 10px;
     margin-top: 24%;
 }
@@ -28,7 +34,7 @@ nav{
 
 h1#logo{
     margin: 0 auto;
-    background-image: url(https://openthread.google.cn/images/ot-contrib-google.png) ;
-    height: 250px;
-    width: 475px;
+    content: url(./imagenes/ot-contrib-google.png) no-repeat;
+    height: 150px;
+    width: 150px;
 }
