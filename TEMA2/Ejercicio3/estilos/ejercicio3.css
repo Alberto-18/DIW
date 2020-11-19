@@ -1,0 +1,47 @@
+body{
+    font-family: serif;
+    background-color: gainsboro;
+}
+
+h1{
+    color: deepskyblue;
+}
+
+h1, h2, h3{
+    font-family: sans-serif;
+}
+
+header{
+    text-align: center;
+    padding: 10px;
+    background-color: ghostwhite;
+}
+
+#container{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+article{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: ghostwhite;
+}
+
+article, p{
+    margin-bottom: 10px;
+}
+
+.post-head{
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: solid 1px;
+}
+
+footer{
+    text-align: center;
+}
+
+article small{
+    color: aqua;
+}

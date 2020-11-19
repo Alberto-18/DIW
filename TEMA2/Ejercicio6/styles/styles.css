@@ -4,9 +4,8 @@
   position: absolute;
   width: 70%;
   left: 250px;
-  top: 95px;
+  top: 90px;
   background: linear-gradient(to bottom, white, yellow)
-
 }   
 
 #menu li{
@@ -14,19 +13,19 @@
   padding: 5%;
   font-size: 20px;
   color: blueviolet;
-  
 }
 
+#menu ul li a{
+  transition: font-size 1s  ease;
+}
 #menu ul li a:hover{
   font-size: 25px;
   color:red;
   font: bold;
-
 }
 
 #container{    
   background-color: white;
-
 }
 
 #brand{
@@ -40,18 +39,15 @@ input[type="text"]{
   background-image: url(../imagenes/search.png) ;
   background-repeat: no-repeat;
   background-position: right;   
-
 }
 
 #rightsidebar li::before{
   content: url(../imagenes/tick.png);
 
-
 }
 
 #leftsidebar li::before{
   content: url(../imagenes/arrow.png);
-
 }
 
 #searchBox{
@@ -60,7 +56,6 @@ input[type="text"]{
   position: absolute;
   left: 67.5%;
   background: linear-gradient(to bottom, white, yellow)
-
 }
 
 #introduction{
@@ -71,17 +66,14 @@ input[type="text"]{
   left: 250px;
   padding: 15px;
   background: linear-gradient(to bottom, white, green)
-
 }
 
 #introduction h3{
   font-size: 30px;
-
 }
 
 #introduction p{
   font-size: 25px;
-
 }
 
 #leftsidebar{
@@ -91,7 +83,6 @@ input[type="text"]{
   border: 2px lightgreen solid;
   border-radius: 10px;
   padding-right: 10%;
-
 }
 
 footer{
@@ -105,7 +96,6 @@ footer{
   color: blueviolet;
   font-size: 25px;
   background: linear-gradient(to bottom, white, yellow)
-
 }
 
 #rightsidebar{
@@ -114,35 +104,29 @@ footer{
   left: 1200px;
   border: 2px lightgreen solid;
   border-radius: 10px;
-
 }
 
 
 #rightsidebar ul{
   list-style: none;
-
 }
 
 #rightsidebar ul li a{
   transition: font-size 1s  ease;
-
 }
 
 #rightsidebar ul li a:hover{
   font-size: 25px;
   color:red;
   font: bold;
-
 }
 
 #leftsidebar ul li a{
   transition: font-size 1s  ease;
-
 }
 
 #leftsidebar ul li a:hover{
   font-size: 25px;
   color:red;
   font: bold;
-  
 }
