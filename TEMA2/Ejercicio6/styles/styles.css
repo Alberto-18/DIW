@@ -8,12 +8,7 @@
   background: linear-gradient(to bottom, white, yellow)
 }   
 
-#menu li{
-  display: inline;
-  padding: 5%;
-  font-size: 20px;
-  color: blueviolet;
-}
+
 
 #menu ul li a{
   transition: font-size 1s  ease;
@@ -22,6 +17,13 @@
   font-size: 25px;
   color:red;
   font: bold;
+}
+
+#menu li{
+  display: inline;
+  padding: 5%;
+  font-size: 20px;
+  color: blueviolet;
 }
 
 #container{    
@@ -70,10 +72,6 @@ input[type="text"]{
 
 #introduction h3{
   font-size: 30px;
-}
-
-#introduction p{
-  font-size: 25px;
 }
 
 #leftsidebar{
